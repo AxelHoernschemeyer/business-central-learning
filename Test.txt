@@ -1,1 +1,2 @@
 Ich bin eine einfach Textdatei.
+Und hier ist die zweite Zeile der Textdatei. Die wurde in GitHub direkt erfasst.
