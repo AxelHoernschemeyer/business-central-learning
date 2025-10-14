@@ -1,3 +1,5 @@
+*Meine Lernreise mit AL, Docker und Business Central*
+
 # 👋 Hallo, ich bin Axel Hörnschemeyer
 
 Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von **Microsoft Dynamics 365 Business Central** und die Programmiersprache **AL** einzuarbeiten.
@@ -28,10 +30,17 @@ Ich möchte praxisnah lernen, wie man mit AL entwickelt – und langfristig eige
 
 ## 🔗 Mehr über mich
 - [LinkedIn-Profil](https://www.linkedin.com/in/axel-hörnschemeyer/)
-- GitHub seit: September 2025
+- 📁 Dieses Repository begleitet meinen Lernweg seit Oktober 2025.
 
 ## 📚 Nächste Schritte
 Ich plane, hier bald erste AL-Projekte zu veröffentlichen – z. B. ein „Hello World“ für Business Central oder eine kleine Erweiterung.
+
+## 📈 Fortschritt
+- ✅ Anfrage an Microsoft gestellt für Teilname am 365 Developer-Programm
+- 🔜 Warte auf Bestätigung
+- 🔜 Erste AL-Extension kompiliert  
+- 🔜 PageExtension mit Action-Button in Arbeit  
+- 🔜 Veröffentlichung erster Demo-Extension
 
 ---
 
