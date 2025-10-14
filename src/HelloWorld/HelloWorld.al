@@ -1,0 +1,19 @@
+pageextension 50100 CustomerCardExtension extends "Customer Card"
+{
+    actions
+    {
+        addlast(Processing)
+        {
+            action(ShowHelloWorld)
+            {
+                ApplicationArea = All;
+                Caption = 'Hello World';
+                Image = Information;
+                trigger OnAction()
+                begin
+                    Message('Hello, Axel! Willkommen in AL.');
+                end;
+            }
+        }
+    }
+}
