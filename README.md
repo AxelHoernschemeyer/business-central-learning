@@ -67,7 +67,7 @@ pageextension 50100 CustomerCardExtension extends "Customer Card"
         }
     }
 }
-```al
+```
 
 ## 🧪 Beispiel: CustomerValidation Extension
 
@@ -85,7 +85,7 @@ tableextension 50101 CustomerValidationExtension extends Customer
             Error('Der Kundenname muss mindestens %1 Zeichen lang sein.', MinLength);
     end;
 }
-```al
+```
 
 📌 Dieses Beispiel demonstriert, wie man Geschäftslogik direkt im Datenmodell verankert – eine typische Aufgabe bei der Anpassung von Business Central.
 
