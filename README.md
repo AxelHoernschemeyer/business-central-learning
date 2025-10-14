@@ -42,6 +42,13 @@ Ich plane, hier bald erste AL-Projekte zu veröffentlichen – z. B. ein „He
 - 🔜 PageExtension mit Action-Button in Arbeit  
 - 🔜 Veröffentlichung erster Demo-Extension
 
+## 🧪 Beispiel: Hello World Extension
+
+Dieses Beispiel fügt der Kundenkarte einen Action-Button „Hello World“ hinzu.  
+Beim Klick erscheint eine MessageBox mit einer Begrüßung.
+
+    > Hinweis: Da ich aktuell keine Docker-Sandbox nutzen kann, wurde der Code nicht ausgeführt – aber vollständig vorbereitet.
+
 ---
 
 Danke fürs Vorbeischauen!
