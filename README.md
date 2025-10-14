@@ -1,4 +1,4 @@
-*Meine Lernreise mit AL, Docker und Business Central. Ursprünglich komme ich von C/AL*
+*Meine Lernreise von C/AL nach AL, Docker und Business Central.*
 
 # 👋 Hallo, ich bin Axel Hörnschemeyer
 
