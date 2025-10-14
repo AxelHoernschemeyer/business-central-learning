@@ -67,11 +67,13 @@ pageextension 50100 CustomerCardExtension extends "Customer Card"
         }
     }
 }
+```al
 
 ## 🧪 Beispiel: CustomerValidation Extension
 
 Dieses Beispiel zeigt, wie du eine einfache Validierung beim Erfassen eines Kunden implementierst. Die Erweiterung prüft, ob der Kundenname mindestens drei Zeichen lang ist – andernfalls wird ein Fehler ausgelöst.
 
+```al
 tableextension 50101 CustomerValidationExtension extends Customer
 {
     trigger OnBeforeInsert()
@@ -83,6 +85,7 @@ tableextension 50101 CustomerValidationExtension extends Customer
             Error('Der Kundenname muss mindestens %1 Zeichen lang sein.', MinLength);
     end;
 }
+```al
 
 📌 Dieses Beispiel demonstriert, wie man Geschäftslogik direkt im Datenmodell verankert – eine typische Aufgabe bei der Anpassung von Business Central.
 
