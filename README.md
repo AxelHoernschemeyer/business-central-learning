@@ -1,4 +1,4 @@
-*Meine Lernreise von C/AL nach AL, Docker und Business Central.*
+🚧 Meine Lernreise von C/AL nach AL, Docker und Business Central.  🚧
 
 # 👋 Hallo, ich bin Axel Hörnschemeyer
 
@@ -46,6 +46,45 @@ Ich plane, hier bald erste AL-Projekte zu veröffentlichen – z. B. ein „He
 
 Dieses Beispiel fügt der Kundenkarte einen Action-Button „Hello World“ hinzu.  
 Beim Klick erscheint eine MessageBox mit einer Begrüßung.
+
+```al
+pageextension 50100 CustomerCardExtension extends "Customer Card"
+{
+    actions
+    {
+        addlast(Processing)
+        {
+            action(ShowHelloWorld)
+            {
+                ApplicationArea = All;
+                Caption = 'Hello World';
+                Image = Information;
+                trigger OnAction()
+                begin
+                    Message('Hello, Axel! Willkommen in AL.');
+                end;
+            }
+        }
+    }
+}
+
+## 🧪 Beispiel: CustomerValidation Extension
+
+Dieses Beispiel zeigt, wie du eine einfache Validierung beim Erfassen eines Kunden implementierst. Die Erweiterung prüft, ob der Kundenname mindestens drei Zeichen lang ist – andernfalls wird ein Fehler ausgelöst.
+
+tableextension 50101 CustomerValidationExtension extends Customer
+{
+    trigger OnBeforeInsert()
+    var
+        MinLength: Integer;
+    begin
+        MinLength := 3;
+        if StrLen(Name) < MinLength then
+            Error('Der Kundenname muss mindestens %1 Zeichen lang sein.', MinLength);
+    end;
+}
+
+📌 Dieses Beispiel demonstriert, wie man Geschäftslogik direkt im Datenmodell verankert – eine typische Aufgabe bei der Anpassung von Business Central.
 
     > Hinweis: Da ich aktuell keine Docker-Sandbox nutzen kann, wurde der Code nicht ausgeführt – aber vollständig vorbereitet.
 
