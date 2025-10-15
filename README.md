@@ -15,6 +15,7 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 - [Fortschritt](#-fortschritt)
 - [Beispiele](#-beispiel-hello-world-extension)
 - [AL-Vokabelliste](#-meine-al-vokabelliste)
+- [DataClassification](#-meine-übersicht-zur-dataclassification)
 
 ## 🧠 Über mich
 
@@ -60,6 +61,11 @@ Ich dokumentiere zentrale Begriffe aus der AL-Entwicklung in einer eigenen Datei
 
 ➡️ [Zur AL-Vokabelliste](AL-Vokabelliste.md)
 
+## 🔐 Meine Übersicht zur DataClassification
+
+Ich dokumentiere alle verfügbaren Werte für die Eigenschaft `DataClassification` in AL – inklusive Beschreibung und Beispielen.
+
+➡️ [Zur AL-DataClassification-Datei](AL-DataClassification.md)
 
 ## 🧪 Beispiel: Hello World Extension
 
