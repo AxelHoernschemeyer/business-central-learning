@@ -54,5 +54,3 @@ Eine Sammlung zentraler Begriffe aus der AL-Entwicklung für Microsoft Dynamics 
 | `proc` | Erstellt eine `procedure`    |
 
 ---
-
-Du kannst diese Liste jederzeit erweitern – z. B. mit Beispielen, Links zu Docs oder eigenen Kommentaren. Wenn du magst, helfe ich dir beim Einpflegen in dein Repository oder beim Verlinken aus deiner README. Sag einfach Bescheid!
