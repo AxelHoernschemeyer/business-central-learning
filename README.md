@@ -4,6 +4,18 @@
 
 Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von **Microsoft Dynamics 365 Business Central** und die Programmiersprache **AL** einzuarbeiten.
 
+## 📑 Inhalt
+
+- [Über mich](#-über-mich)
+- [Was ich gerade lerne](#-was-ich-gerade-lerne)
+- [Projekte & Repositories](#-projekte--repositories)
+- [Ziel](#-ziel)
+- [Mehr über mich](#-mehr-über-mich)
+- [Nächste Schritte](#-nächste-schritte)
+- [Fortschritt](#-fortschritt)
+- [Beispiele](#-beispiel-hello-world-extension)
+- [AL-Vokabelliste](#-meine-al-vokabelliste)
+
 ## 🧠 Über mich
 
 - 💼 Langjähriger IT-Leiter mit Fokus auf ERP, Infrastruktur und Prozessoptimierung  
@@ -41,6 +53,13 @@ Ich plane, hier bald erste AL-Projekte zu veröffentlichen – z. B. ein „He
 - 🔜 Erste AL-Extension kompiliert  
 - 🔜 PageExtension mit Action-Button in Arbeit  
 - 🔜 Veröffentlichung erster Demo-Extension
+
+## 📘 Meine AL-Vokabelliste
+
+Ich dokumentiere zentrale Begriffe aus der AL-Entwicklung in einer eigenen Datei – als persönliches Nachschlagewerk für mich und andere Einsteiger.
+
+➡️ [Zur AL-Vokabelliste](AL-Vokabelliste.md)
+
 
 ## 🧪 Beispiel: Hello World Extension
 
