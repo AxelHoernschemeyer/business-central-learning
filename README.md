@@ -33,10 +33,7 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 
 | Projekt | Beschreibung |
 |--------|--------------|
-| `bc-al-demo` | Beispielprojekt mit AL-Grundlagen, Tabellen, Pages und Reports |
-| `bc-devops-pipeline` | CI/CD-Workflow mit GitHub Actions für AL-Extensions |
-| `bc-docker-setup` | Anleitung zur lokalen BC-Umgebung mit Docker und artifactUrl |
-| `bc-testtoolkit` | Automatisierte Tests mit dem Business Central Test Toolkit |
+| `business-central-learning` | Beispielprojekt mit AL-Grundlagen, Tabellen, Pages und Reports |
 
 ## 🎯 Ziel
 Ich möchte praxisnah lernen, wie man mit AL entwickelt – und langfristig eigene Erweiterungen für Business Central schreiben.
@@ -47,6 +44,15 @@ Ich möchte praxisnah lernen, wie man mit AL entwickelt – und langfristig eige
 
 ## 📚 Nächste Schritte
 Ich plane, hier bald erste AL-Projekte zu veröffentlichen – z. B. ein „Hello World“ für Business Central oder eine kleine Erweiterung.
+
+🧪 Geplante Projekte
+| Projekt | Beschreibung |
+|--------|--------------|
+|bc-docker-setup | Lokale Business Central Sandbox mit Docker und artifactUrl |
+|bc-devops-pipeline | CI/CD-Workflow mit GitHub Actions für AL-Extensions |
+|bc-testtoolkit | Automatisierte Tests mit dem Business Central Test Toolkit |
+
+📌 Diese Projekte sind aktuell noch nicht angelegt – Inhalte folgen.
 
 ## 📈 Fortschritt
 - ✅ Anfrage an Microsoft gestellt für Teilname am 365 Developer-Programm
