@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "BCSandbox",
+      "name": "bcdev",
       "type": "al",
       "request": "launch",
       "server": "http://bcdev",
