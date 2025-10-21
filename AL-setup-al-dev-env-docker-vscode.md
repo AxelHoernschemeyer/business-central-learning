@@ -1,10 +1,3 @@
-Ja, genau Axel — und das habe ich jetzt für dich vorbereitet. Hier ist der vollständige Inhalt deiner Datei **`setup-al-dev-env-docker-vscode.md`**, sauber formatiert in Markdown. Du kannst sie direkt in dein Projektverzeichnis legen oder in GitHub hochladen:
-
----
-
-### 📄 `setup-al-dev-env-docker-vscode.md`
-
-```markdown
 # 🧭 AL-Entwicklungsumgebung mit Docker & VS Code: Schritt-für-Schritt Anleitung
 
 Diese Anleitung dokumentiert die vollständige Einrichtung einer lokalen AL-Entwicklungsumgebung für Microsoft Dynamics 365 Business Central mit Docker und Visual Studio Code. Enthalten sind alle Schritte, aufgetretene Probleme und deren Lösungen — ideal für Wiederverwendung, Teamweitergabe oder Portfolio-Dokumentation.
