@@ -79,7 +79,7 @@ Ich dokumentiere alle verfügbaren Werte für die Eigenschaft `DataClassificatio
 Ich dokumentiere jeden Schritt meiner lokalen AL-Entwicklungsumgebung – von der Docker-Installation über die Container-Erstellung bis zum erfolgreichen Symbol-Download in VS Code.  
 Die Anleitung enthält alle aufgetretenen Probleme und deren Lösungen – ideal für Wiederholung, Teamweitergabe oder Portfolio-Dokumentation.
 
-➡️ [Zur Setup-Anleitung](setup-al-dev-env-docker-vscode.md)
+➡️ [Zur Setup-Anleitung](AL-setup-al-dev-env-docker-vscode.md)
 
 
 ## 🧪 Beispiel: Hello World Extension
