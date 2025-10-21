@@ -16,6 +16,7 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 - [Beispiele](#-beispiel-hello-world-extension)
 - [AL-Vokabelliste](#-meine-al-vokabelliste)
 - [DataClassification](#-meine-übersicht-zur-dataclassification)
+- [Setup-Anleitung](#-setup-anleitung-für-docker--vs-code)
 
 ## 🧠 Über mich
 
@@ -73,6 +74,14 @@ Ich dokumentiere alle verfügbaren Werte für die Eigenschaft `DataClassificatio
 
 ➡️ [Zur AL-DataClassification-Datei](AL-DataClassification.md)
 
+## 🧰 Setup-Anleitung für Docker & VS Code
+
+Ich dokumentiere jeden Schritt meiner lokalen AL-Entwicklungsumgebung – von der Docker-Installation über die Container-Erstellung bis zum erfolgreichen Symbol-Download in VS Code.  
+Die Anleitung enthält alle aufgetretenen Probleme und deren Lösungen – ideal für Wiederholung, Teamweitergabe oder Portfolio-Dokumentation.
+
+➡️ [Zur Setup-Anleitung](setup-al-dev-env-docker-vscode.md)
+
+
 ## 🧪 Beispiel: Hello World Extension
 
 Dieses Beispiel fügt der Kundenkarte einen Action-Button „Hello World“ hinzu.  
@@ -98,30 +107,3 @@ pageextension 50100 CustomerCardExtension extends "Customer Card"
         }
     }
 }
-```
-
-## 🧪 Beispiel: CustomerValidation Extension
-
-Dieses Beispiel zeigt, wie du eine einfache Validierung beim Erfassen eines Kunden implementierst. Die Erweiterung prüft, ob der Kundenname mindestens drei Zeichen lang ist – andernfalls wird ein Fehler ausgelöst.
-
-```al
-tableextension 50101 CustomerValidationExtension extends Customer
-{
-    trigger OnBeforeInsert()
-    var
-        MinLength: Integer;
-    begin
-        MinLength := 3;
-        if StrLen(Name) < MinLength then
-            Error('Der Kundenname muss mindestens %1 Zeichen lang sein.', MinLength);
-    end;
-}
-```
-
-📌 Dieses Beispiel demonstriert, wie man Geschäftslogik direkt im Datenmodell verankert – eine typische Aufgabe bei der Anpassung von Business Central.
-
-    > Hinweis: Da ich aktuell keine Docker-Sandbox nutzen kann, wurde der Code nicht ausgeführt – aber vollständig vorbereitet.
-
----
-
-Danke fürs Vorbeischauen!
