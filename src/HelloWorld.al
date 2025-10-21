@@ -8,7 +8,7 @@ pageextension 50100 CustomerCardExtension extends "Customer Card"
             {
                 ApplicationArea = All;
                 Caption = 'Hello World';
-                Image = Information;
+                Image = Info;
                 trigger OnAction()
                 begin
                     Message('Hello, Axel! Willkommen in AL.');
