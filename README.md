@@ -35,7 +35,7 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 
 | Projekt | Beschreibung |
 |--------|--------------|
-| `business-central-learning` | Beispielprojekt mit AL-Grundlagen, Tabellen, Pages und Reports |
+|[`business-central-learning`](https://github.com/AxelHoernschemeyer/business-central-learning) | Beispielprojekt mit AL-Grundlagen, Tabellen, Pages und Reports |
 
 ## 🎯 Ziel
 Ich möchte praxisnah lernen, wie man mit AL entwickelt – und langfristig eigene Erweiterungen für Business Central schreiben.
