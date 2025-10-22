@@ -6,7 +6,7 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 
 ## 📑 Inhalt
 
-- [Über mich](#-über-mich)
+- [🧠 Über mich](#-über-mich)
 - [Was ich gerade lerne](#-was-ich-gerade-lerne)
 - [Projekte & Repositories](#-projekte--repositories)
 - [Ziel](#-ziel)
