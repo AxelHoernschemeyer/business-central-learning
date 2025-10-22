@@ -43,6 +43,11 @@ Ich möchte praxisnah lernen, wie man mit AL entwickelt – und langfristig eige
 - [LinkedIn-Profil](https://www.linkedin.com/in/axel-hörnschemeyer/)
 - 📁 Dieses Repository begleitet meinen Lernweg seit Oktober 2025.
 
+## 🧼 Git Hygiene
+
+Dieses Projekt verwendet eine `.gitignore`, um temporäre Dateien, Cache-Inhalte und Build-Artefakte auszuschließen. Ziel: saubere Versionierung und nachvollziehbare Historie.
+
+
 ## 📚 Nächste Schritte
 Ich plane, hier bald erste AL-Projekte zu veröffentlichen – z. B. ein „Hello World“ für Business Central oder eine kleine Erweiterung.
 
