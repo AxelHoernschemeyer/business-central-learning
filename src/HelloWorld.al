@@ -11,7 +11,7 @@ pageextension 50100 CustomerCardExtension extends "Customer Card"
                 Image = Info;
                 trigger OnAction()
                 begin
-                    Message('Hello!, Axel! Willkommen in AL.');
+                    Message('Hello, Axel! Willkommen in AL.');
                 end;
             }
         }
