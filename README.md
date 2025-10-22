@@ -7,17 +7,17 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 ## 📑 Inhalt
 
 - [🧠 Über mich](#-über-mich)
-- [Was ich gerade lerne](#-was-ich-gerade-lerne)
-- [Projekte & Repositories](#-projekte--repositories)
-- [Ziel](#-ziel)
-- [Mehr über mich](#-mehr-über-mich)
-- [Git Hygiene](#-git-hygiene)
-- [Nächste Schritte](#-nächste-schritte)
-- [Fortschritt](#-fortschritt)
-- [Beispiele](#-beispiel-hello-world-extension)
-- [AL-Vokabelliste](#-meine-al-vokabelliste)
-- [DataClassification](#-meine-übersicht-zur-dataclassification)
-- [Setup-Anleitung](#-setup-anleitung-für-docker--vs-code)
+- [🚀 Was ich gerade lerne](#-was-ich-gerade-lerne)
+- [📦 Projekte & Repositories](#-projekte--repositories)
+- [🎯 Ziel](#-ziel)
+- [🔗 Mehr über mich](#-mehr-über-mich)
+- [🧼 Git Hygiene](#-git-hygiene)
+- [📚 Nächste Schritte](#-nächste-schritte)
+- [📈 Fortschritt](#-fortschritt)
+- [📘 AL-Vokabelliste](#-meine-al-vokabelliste)
+- [🔐 DataClassification](#-meine-übersicht-zur-dataclassification)
+- [🧰 Setup-Anleitung](#-setup-anleitung-für-docker--vs-code)
+- [🧪 Beispiele](#-beispiel-hello-world-extension)
 
 ## 🧠 Über mich
 
