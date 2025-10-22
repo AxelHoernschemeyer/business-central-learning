@@ -1,0 +1,84 @@
+########################################
+# AL / Business Central Development
+########################################
+
+# Kompilierte Extensions
+*.app
+
+# Temporäre Cache-Dateien (z. B. aus VS Code oder AL Language Extension)
+cache_*
+**/cache_*
+
+# Zertifikate und Schlüssel
+*.pfx
+*.cer
+
+# Log- und temporäre Dateien
+*.log
+*.tmp
+*.bak
+
+########################################
+# Visual Studio Code
+########################################
+
+# Editor-Einstellungen (optional ignorieren, wenn teamübergreifend nicht relevant)
+.vscode/
+
+# Workspace-Storage und History
+.history/
+*.code-workspace
+
+########################################
+# Docker (optional, falls nicht versioniert)
+########################################
+
+Dockerfile
+docker-compose.*
+*.dockerignore
+
+########################################
+# Node.js / Web Tools (falls verwendet)
+########################################
+
+node_modules/
+dist/
+build/
+
+########################################
+# Systemdateien (macOS / Windows)
+########################################
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+########################################
+# Archivdateien
+########################################
+
+*.zip
+*.rar
+*.7z
+
+########################################
+# Erweiterungen / Pakete
+########################################
+
+*.vsix
+
+########################################
+# Übersetzungsdateien (optional)
+########################################
+
+# Falls du .xlf-Dateien generierst, aber nicht versionieren willst:
+# *.xlf
+
+# Falls du sie versionieren willst, bitte auskommentieren oder entfernen.
+
+########################################
+# Persönliche Notizen / Markdown
+########################################
+
+# Nur ignorieren, wenn du Markdown-Dateien nicht versionieren willst:
+# *.md
