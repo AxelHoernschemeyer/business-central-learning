@@ -62,7 +62,7 @@ Ich plane, hier bald erste AL-Projekte zu veröffentlichen – z. B. ein „He
 📌 Diese Projekte sind aktuell noch nicht angelegt – Inhalte folgen.
 
 ## 📈 Fortschritt
-- ✅ Anfrage an Microsoft gestellt für Teilname am 365 Developer-Programm
+- ✅ [14.10.2025] Anfrage an Microsoft gestellt für Teilname am 365 Developer-Programm
 - 🔜 Warte auf Bestätigung
 - 🔜 Erste AL-Extension kompiliert  
 - 🔜 PageExtension mit Action-Button in Arbeit  
