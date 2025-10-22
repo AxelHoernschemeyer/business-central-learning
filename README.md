@@ -11,6 +11,7 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 - [Projekte & Repositories](#-projekte--repositories)
 - [Ziel](#-ziel)
 - [Mehr über mich](#-mehr-über-mich)
+- [Git Hygiene](#-git-hygiene)
 - [Nächste Schritte](#-nächste-schritte)
 - [Fortschritt](#-fortschritt)
 - [Beispiele](#-beispiel-hello-world-extension)
