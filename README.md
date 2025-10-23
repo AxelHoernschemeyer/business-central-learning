@@ -94,7 +94,7 @@ Die Anleitung enthält alle aufgetretenen Probleme und deren Lösungen – ideal
 Für alle, die versehentlich gepackte AL-Erweiterungen in der Sandbox veröffentlicht haben oder gezielt Objekte wieder entfernen möchten, gibt es eine strukturierte Schritt-für-Schritt-Anleitung. 
 Sie enthält UI-basierte und PowerShell-Methoden, Hinweise zum Sandbox-Reset sowie Clean-Deployment-Strategien. Ideal für Tests, Rollbacks und saubere Entwicklungszyklen.
 
-➡️ [Zur Anleitung zum entfernen] (docs/guides/REMOVE_EXTENSION_FROM_SANDBOX.md). 
+➡️ [Zur Anleitung zum entfernen](docs/guides/REMOVE_EXTENSION_FROM_SANDBOX.md). 
 
 ## 🧪 Beispiel: Hello World Extension
 
