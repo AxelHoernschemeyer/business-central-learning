@@ -2,6 +2,7 @@
   "id": "e3a1f9d0-1234-4567-89ab-abcdef123456",
   "name": "BusinessCentralLearning",
   "publisher": "Axel Hörnschemeyer",
+  "description": "Meine Lernumgebung für Microsoft Dynamics 365 Business Central",
   "version": "1.0.0.0",
   "platform": "23.0.0.0",
   "application": "23.0.0.0",
