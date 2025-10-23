@@ -17,7 +17,7 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 - [📘 AL-Vokabelliste](#-meine-al-vokabelliste)
 - [🔐 DataClassification](#-meine-übersicht-zur-dataclassification)
 - [🧰 Setup-Anleitung](#-setup-anleitung-für-docker--vs-code)
-- [🧰 Erweiterung entfernen](#-Sandbox-Anleitung)
+- [🧰 Erweiterung entfernen](#-erweiterung-entfernen-sandbox-anleitung)
 - [🧪 Beispiele](#-beispiel-hello-world-extension)
 
 ## 🧠 Über mich
