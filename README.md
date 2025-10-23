@@ -18,7 +18,6 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 - [🔐 DataClassification](#-meine-übersicht-zur-dataclassification)
 - [🧰 Setup-Anleitung](#-setup-anleitung-für-docker--vs-code)
 - [🧰 Erweiterung entfernen] (#-Sandbox-Anleitung)
-
 - [🧪 Beispiele](#-beispiel-hello-world-extension)
 
 ## 🧠 Über mich
