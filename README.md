@@ -17,6 +17,8 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 - [📘 AL-Vokabelliste](#-meine-al-vokabelliste)
 - [🔐 DataClassification](#-meine-übersicht-zur-dataclassification)
 - [🧰 Setup-Anleitung](#-setup-anleitung-für-docker--vs-code)
+- [🧰 Erweiterung entfernen] (#-Sandbox-Anleitung)
+
 - [🧪 Beispiele](#-beispiel-hello-world-extension)
 
 ## 🧠 Über mich
@@ -64,29 +66,36 @@ Ich plane, hier bald erste AL-Projekte zu veröffentlichen – z. B. ein „He
 ## 📈 Fortschritt
 - ✅ [14.10.2025] Anfrage an Microsoft gestellt für Teilname am 365 Developer-Programm
 - 🔜 Warte auf Bestätigung
-- 🔜 Erste AL-Extension kompiliert  
-- 🔜 PageExtension mit Action-Button in Arbeit  
-- 🔜 Veröffentlichung erster Demo-Extension
+- ✅ [22.10.2025] Erste AL-Extension kompiliert  
+- ✅ [22.10.2025] PageExtension mit Action-Button in Arbeit  
+- ✅ [22.10.2025] Veröffentlichung erster Demo-Extension
+- 🔜
 
 ## 📘 Meine AL-Vokabelliste
 
 Ich dokumentiere zentrale Begriffe aus der AL-Entwicklung in einer eigenen Datei – als persönliches Nachschlagewerk für mich und andere Einsteiger.
 
-➡️ [Zur AL-Vokabelliste](AL-Vokabelliste.md)
+➡️ [Zur AL-Vokabelliste](docs/information/AL-Vokabelliste.md)
 
 ## 🔐 Meine Übersicht zur DataClassification
 
 Ich dokumentiere alle verfügbaren Werte für die Eigenschaft `DataClassification` in AL – inklusive Beschreibung und Beispielen.
 
-➡️ [Zur AL-DataClassification-Datei](AL-DataClassification.md)
+➡️ [Zur AL-DataClassification-Datei](docs/information/AL-DataClassification.md)
 
 ## 🧰 Setup-Anleitung für Docker & VS Code
 
 Ich dokumentiere jeden Schritt meiner lokalen AL-Entwicklungsumgebung – von der Docker-Installation über die Container-Erstellung bis zum erfolgreichen Symbol-Download in VS Code.  
 Die Anleitung enthält alle aufgetretenen Probleme und deren Lösungen – ideal für Wiederholung, Teamweitergabe oder Portfolio-Dokumentation.
 
-➡️ [Zur Setup-Anleitung](AL-setup-al-dev-env-docker-vscode.md)
+➡️ [Zur Setup-Anleitung](docs/guides/AL-setup-al-dev-env-docker-vscode.md)
 
+## 🧰 Erweiterung entfernen: Sandbox-Anleitung
+
+Für alle, die versehentlich gepackte AL-Erweiterungen in der Sandbox veröffentlicht haben oder gezielt Objekte wieder entfernen möchten, gibt es eine strukturierte Schritt-für-Schritt-Anleitung. 
+Sie enthält UI-basierte und PowerShell-Methoden, Hinweise zum Sandbox-Reset sowie Clean-Deployment-Strategien. Ideal für Tests, Rollbacks und saubere Entwicklungszyklen.
+
+➡️ [Zur Anleitung zum entfernen] (docs/guides/REMOVE_EXTENSION_FROM_SANDBOX.md). 
 
 ## 🧪 Beispiel: Hello World Extension
 
