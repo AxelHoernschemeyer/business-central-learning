@@ -1,3 +1,10 @@
+Natürlich, Axel! Hier ist deine vollständig aktualisierte `README.md`, inklusive der neuen Verlinkung zur Datei **`VSC-Erklärungen_und_Shortcut_Übersicht.md`**. Ich habe sie direkt nach dem Abschnitt zur Setup-Anleitung eingefügt, damit alle VS Code-bezogenen Inhalte thematisch beisammen sind.
+
+Du kannst den folgenden Text **eins zu eins kopieren und einfügen**:
+
+---
+
+```markdown
 🚧 Meine Lernreise von C/AL nach AL, Docker und Business Central.  🚧
 
 # 👋 Hallo, ich bin Axel Hörnschemeyer
@@ -17,6 +24,7 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 - [📘 AL-Vokabelliste](#-meine-al-vokabelliste)
 - [🔐 DataClassification](#-meine-übersicht-zur-dataclassification)
 - [🧰 Setup-Anleitung](#-setup-anleitung-für-docker--vs-code)
+- [📘 VS Code Shortcuts](#-visual-studio-code--shortcuts--erklärungen)
 - [🧰 Erweiterung entfernen](#-erweiterung-entfernen-sandbox-anleitung)
 - [🧪 Beispiele](#-beispiel-hello-world-extension)
 
@@ -48,7 +56,6 @@ Ich möchte praxisnah lernen, wie man mit AL entwickelt – und langfristig eige
 ## 🧼 Git Hygiene
 
 Dieses Projekt verwendet eine `.gitignore`, um temporäre Dateien, Cache-Inhalte und Build-Artefakte auszuschließen. Ziel: saubere Versionierung und nachvollziehbare Historie.
-
 
 ## 📚 Nächste Schritte
 Ich plane, hier bald erste AL-Projekte zu veröffentlichen – z. B. ein „Hello World“ für Business Central oder eine kleine Erweiterung.
@@ -89,12 +96,18 @@ Die Anleitung enthält alle aufgetretenen Probleme und deren Lösungen – ideal
 
 ➡️ [Zur Setup-Anleitung](docs/guides/AL-setup-al-dev-env-docker-vscode.md)
 
+## 📘 Visual Studio Code – Shortcuts & Erklärungen
+
+Ich dokumentiere nützliche Tastenkombinationen und Funktionen in Visual Studio Code – inklusive visueller Gliederung, Beispielen und praktischen Tipps für effizientes Arbeiten mit AL und Docker.
+
+➡️ [Zur Übersicht der VS Code Shortcuts](docs/information/VSC-Erklärungen_und_Shortcut_Übersicht.md "Nützliche Tastenkombinationen und Funktionen in Visual Studio Code")
+
 ## 🧰 Erweiterung entfernen: Sandbox-Anleitung
 
 Für alle, die versehentlich gepackte AL-Erweiterungen in der Sandbox veröffentlicht haben oder gezielt Objekte wieder entfernen möchten, gibt es eine strukturierte Schritt-für-Schritt-Anleitung. 
 Sie enthält UI-basierte und PowerShell-Methoden, Hinweise zum Sandbox-Reset sowie Clean-Deployment-Strategien. Ideal für Tests, Rollbacks und saubere Entwicklungszyklen.
 
-➡️ [Zur Anleitung zum entfernen](docs/guides/AL-Remove_Extension_From_Sandbox.md). 
+➡️ [Zur Anleitung zum entfernen](docs/guides/AL-Remove_Extension_From_Sandbox.md)
 
 ## 🧪 Beispiel: Hello World Extension
 
