@@ -1,4 +1,4 @@
-tableextension 50101 CustomerValidationExtension extends Customer
+tableextension 50147 CustomerValidationExtension extends Customer
 {
     trigger OnBeforeInsert()
     var
