@@ -35,6 +35,6 @@ page 50101 "Rewards Level List"
     end;
 
     var
-        //CustomerRewardsExtMgt: Codeunit "Customer Rewards Ext Mgt.";
+        CustomerRewardsExtMgt: Codeunit "Customer Rewards Ext Mgt";
         NotActivatedTxt: Label 'The Customer Rewards is not activated.';
 }
