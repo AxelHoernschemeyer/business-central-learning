@@ -1,5 +1,5 @@
 //pageextension 50100 CustomerCardExtension extends "Customer Card"
-pageextension 50101 CustomerListExtension extends "Customer List"
+pageextension 50149 CustomerListExtension extends "Customer List"
 {
     actions
     {
