@@ -110,7 +110,7 @@ codeunit 50101 "Customer Rewards Ext Mgt"
         if ActivationCode = '' then
             exit(false);
 
-        ResponseText := DummySucessResponseText;
+        ResponseText := DummySuccessResponseTxt;
         exit(true);
     end;
 
