@@ -1,10 +1,3 @@
-Natürlich, Axel! Hier ist deine vollständig aktualisierte `README.md`, inklusive der neuen Verlinkung zur Datei **`VSC-Erklärungen_und_Shortcut_Übersicht.md`**. Ich habe sie direkt nach dem Abschnitt zur Setup-Anleitung eingefügt, damit alle VS Code-bezogenen Inhalte thematisch beisammen sind.
-
-Du kannst den folgenden Text **eins zu eins kopieren und einfügen**:
-
----
-
-```markdown
 🚧 Meine Lernreise von C/AL nach AL, Docker und Business Central.  🚧
 
 # 👋 Hallo, ich bin Axel Hörnschemeyer
