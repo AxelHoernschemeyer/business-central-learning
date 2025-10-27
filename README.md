@@ -39,6 +39,23 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 |--------|--------------|
 |[`business-central-learning`](https://github.com/AxelHoernschemeyer/business-central-learning) | Beispielprojekt mit AL-Grundlagen, Tabellen, Pages und Reports |
 
+## 📚 Microsoft Learn: AL-Entwicklung in Business Central
+
+Ich arbeite mich systematisch durch den offiziellen Microsoft Learn-Kurs [„Get started with development in Business Central“](https://learn.microsoft.com/en-us/training/paths/development-get-started-business-central/), um praxisnah AL-Entwicklung zu vertiefen und eine eigene Belohnungsstufen-Erweiterung aufzubauen.
+
+#### 🧩 Lernfortschritt
+
+| Modul | Thema | Status |
+|-------|-------|--------|
+| 1️⃣ | Entwicklungsumgebung einrichten & erste Extension erstellen | ✅ Abgeschlossen |
+| 2️⃣ | Neue Objekte hinzufügen (Tabellen & Pages) | ✅ Abgeschlossen |
+| 3️⃣ | Bestehende Objekte erweitern (Extensions) | ✅ Abgeschlossen |
+| 4️⃣ | Funktionalität mit Events erweitern (Codeunits & Trigger) | 🔄 In Bearbeitung |
+| 5️⃣ | Benutzerführung mit Assisted Setup & Tooltips | ⏳ Geplant |
+| 6️⃣ | Dateninitialisierung bei Installation | ⏳ Geplant |
+
+📁 Alle Übungen dokumentiere ich im Projektordner `src/demo-belohnungssystem/` – inklusive Tabellen, Pages, Extensions und (bald) Codeunits.
+
 ## 🎯 Ziel
 Ich möchte praxisnah lernen, wie man mit AL entwickelt – und langfristig eigene Erweiterungen für Business Central schreiben.
 
