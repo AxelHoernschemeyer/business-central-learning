@@ -7,5 +7,6 @@
   "application": "23.0.0.0",
   "dependencies": [],
   "target": "Cloud",
-  "runtime": "9.0"
+  "runtime": "9.0",
+  "contextSensitiveHelpUrl": "https://learn.microsoft.com/en-us/dynamics365/business-central/"
 }

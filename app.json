@@ -28,5 +28,6 @@
   "runtime": "16.0",
   "features": [
     "NoImplicitWith"
-  ]
+  ],
+  "contextSensitiveHelpUrl": "https://learn.microsoft.com/en-us/dynamics365/business-central/"
 }
