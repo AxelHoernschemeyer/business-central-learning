@@ -23,7 +23,7 @@ Die Inhalte sind so strukturiert, dass sie leicht erweiterbar sind und sich gut 
 ## ✂️ Zeile löschen
 
 - **Shortcut:**  
-  - **Windows/Linux:** `Ctrl + Shift + K`  
+  - **Windows/Linux:** `Ctrl + L`
   - **macOS:** `Cmd + Shift + K`
 
 - **Beschreibung:**  
