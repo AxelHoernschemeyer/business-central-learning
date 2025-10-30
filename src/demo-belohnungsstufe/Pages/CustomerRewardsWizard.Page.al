@@ -45,4 +45,7 @@ page 50100 "Customer Rewards Wizard"
             }
         }
     }
+    var
+        FirstPageVisible: Boolean;
+
 }
