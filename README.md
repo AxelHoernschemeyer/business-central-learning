@@ -110,7 +110,7 @@ Die Anleitung enthält alle aufgetretenen Probleme und deren Lösungen – ideal
 
 Ich dokumentiere nützliche Tastenkombinationen und Funktionen in Visual Studio Code – inklusive visueller Gliederung, Beispielen und praktischen Tipps für effizientes Arbeiten mit AL und Docker.
 
-➡️ [Zur Übersicht der VS Code Shortcuts](docs/information/VSC-Erklärungen_und_Shortcut_Übersicht.md "Nützliche Tastenkombinationen und Funktionen in Visual Studio Code")
+➡️ [Zur Übersicht der VS Code Shortcuts](docs/guides/VSC-Erklärungen_und_Shortcut_Übersicht.md "Nützliche Tastenkombinationen und Funktionen in Visual Studio Code")
 
 ## 🧰 Erweiterung entfernen: Sandbox-Anleitung
 

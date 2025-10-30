@@ -1,6 +1,3 @@
-Natürlich, Axel! Hier ist die überarbeitete `.md`-Datei mit einem **automatisch generierten Inhaltsverzeichnis**, einer **visuellen Gliederung mit Emojis** und **deutscher Sprache**. Die Struktur ist so gewählt, dass sie sich ideal für dein öffentliches Lern- oder Team-Repository eignet:
-
-```markdown
 # 🧠 Visual Studio Code – Erklärungen & Shortcuts
 
 Diese Datei dient als zentrale Sammlung nützlicher Tastenkombinationen, Funktionen und Erklärungen rund um **Visual Studio Code (VSC)**. Ziel ist es, ein kompaktes Nachschlagewerk für den täglichen Gebrauch zu schaffen – ideal für Entwickler:innen, die effizienter arbeiten und ihre Umgebung besser verstehen möchten.
