@@ -301,10 +301,8 @@ page 50100 "Customer Rewards Wizard"
 
     local procedure LoadTopBanners();
     begin
-        if MediaRepositoryStandard.GET('AssistedSetup-NoText-400px.png', FORMAT(CURRENTCLIENTTYPE))
-      then
-            if MediaResourcesStandard.GET(MediaRepositoryStandard."Media Resources Ref")
-        then
+        if MediaRepositoryStandard.GET('AssistedSetup-NoText-400px.png', FORMAT(CURRENTCLIENTTYPE)) then
+            if MediaResourcesStandard.GET(MediaRepositoryStandard."Media Resources Ref") then
                 TopBannerVisible := MediaResourcesStandard."Media Reference".HASVALUE;
     end;
 
