@@ -11,14 +11,14 @@ codeunit 50102 "Cust Rewards Assisted Setup"
         GuidedExperience: Codeunit "Guided Experience";
         CurrentGlobalLanguage: Integer;
         myAppInfo: ModuleInfo;
-        WizardText: Label 'Customer Rewards assisted setup guide';
+        WizardTxt: Label 'Customer Rewards assisted setup guide';
         GuidedExperienceType: Enum "Guided Experience Type";
         VideoCategory: Enum "Video Category";
     begin
         NavApp.GetCurrentModuleInfo(myAppInfo);
         CurrentGlobalLanguage := GlobalLanguage;
-        GuidedExperience.InsertAssistedSetup(WizardText, WizardText, WizardText, 5, ObjectType::Page, page::"Customer Rewards Wizard", "Assisted Setup Group"::Extensions, '', VideoCategory::Uncategorized, '');
+        GuidedExperience.InsertAssistedSetup(WizardTxt, WizardTxt, WizardTxt, 5, ObjectType::Page, page::"Customer Rewards Wizard", "Assisted Setup Group"::Extensions, '', VideoCategory::Uncategorized, '');
         GlobalLanguage(1033);
-        GuidedExperience.AddTranslationForSetupObjectTitle(GuidedExperienceType::"Assisted Setup", ObjectType::Page, Page::"Customer Rewards Wizard", CurrentGlobalLanguage, WizardText);
+        GuidedExperience.AddTranslationForSetupObjectTitle(GuidedExperienceType::"Assisted Setup", ObjectType::Page, Page::"Customer Rewards Wizard", CurrentGlobalLanguage, WizardTxt);
     End;
 }
