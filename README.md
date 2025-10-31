@@ -18,6 +18,7 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 - [🔐 DataClassification](#-meine-übersicht-zur-dataclassification)
 - [🧰 Setup-Anleitung](#-setup-anleitung-für-docker--vs-code)
 - [📘 VS Code Shortcuts](#-visual-studio-code--shortcuts--erklärungen)
+- [🧰 AL-Erweiterung & Shortcut-Übersicht](#-al-erweiterung--shortcut-übersicht)
 - [🧰 Erweiterung entfernen](#-erweiterung-entfernen-sandbox-anleitung)
 - [🧪 Beispiele](#-beispiel-hello-world-extension)
 
@@ -111,6 +112,13 @@ Die Anleitung enthält alle aufgetretenen Probleme und deren Lösungen – ideal
 Ich dokumentiere nützliche Tastenkombinationen und Funktionen in Visual Studio Code – inklusive visueller Gliederung, Beispielen und praktischen Tipps für effizientes Arbeiten mit AL und Docker.
 
 ➡️ [Zur Übersicht der VS Code Shortcuts](docs/guides/VSC-Erklärungen_und_Shortcut_Übersicht.md "Nützliche Tastenkombinationen und Funktionen in Visual Studio Code")
+
+## 🧰 AL-Erweiterung & Shortcut-Übersicht
+
+Ich dokumentiere typische Besonderheiten der AL-Sprache, Layout-Tricks mit field('', ''), nützliche Erweiterungen für Business Central sowie häufig genutzte Shortcuts. Ideal für Einsteiger, Teamweitergabe oder zur Wiederverwendung in eigenen Projekten.
+
+➡️ [Zur AL-Erweiterung & Shortcut-Übersicht](AL-Erweiterung_und_Shortcut_Übersicht.md "Kompakte Sammlung von AL-Syntax-Besonderheiten, Layout-Tricks und nützlichen Erweiterungen für Business Central.")
+
 
 ## 🧰 Erweiterung entfernen: Sandbox-Anleitung
 
