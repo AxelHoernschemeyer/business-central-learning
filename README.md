@@ -42,21 +42,25 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 
 ## 📚 Microsoft Learn: AL-Entwicklung in Business Central
 
-Ich arbeite mich systematisch durch den offiziellen Microsoft Learn-Kurs [„Get started with development in Business Central“](https://learn.microsoft.com/en-us/training/paths/development-get-started-business-central/), um praxisnah AL-Entwicklung zu vertiefen und eine eigene Belohnungsstufen-Erweiterung aufzubauen.
+Ich arbeite mich systematisch durch den offiziellen Microsoft Learn-Kurs [„Erste Schritte mit der Entwicklung in Business Central“](https://learn.microsoft.com/de-de/training/paths/development-get-started-business-central/), um praxisnah AL-Entwicklung zu vertiefen und eine eigene Belohnungsstufen-Erweiterung aufzubauen.
 
 #### 🧩 Lernfortschritt
 
+🟢 ✅ Abgeschlossen 🔄 In Arbeit ⏳ Geplant
+
 | Modul | Thema | Status |
 |-------|-------|--------|
-| 1️⃣ | Entwicklungsumgebung einrichten & erste Extension erstellen | ✅ Abgeschlossen |
-| 2️⃣ | Neue Objekte hinzufügen (Tabellen & Pages) | ✅ Abgeschlossen |
-| 3️⃣ | Bestehende Objekte erweitern (Extensions) | ✅ Abgeschlossen |
-| 4️⃣ | Funktionalität mit Events erweitern (Codeunits & Trigger) | ✅ Abgeschlossen |
-| 5️⃣ | Benutzerführung mit Assisted Setup & Tooltips | ✅ Abgeschlossen |
-| 6️⃣ | Dateninitialisierung bei Installation | 🔄 In Arbeit |
-| 7️⃣ | ...| ⏳ Geplant |
+| 1️⃣ | Entwicklungsumgebung einrichten & erste Extension erstellen | ✅ |
+| 2️⃣ | Neue Objekte hinzufügen (Tabellen & Pages) | ✅ |
+| 3️⃣ | Bestehende Objekte erweitern (Extensions) | ✅ |
+| 4️⃣ | Funktionalität mit Events erweitern (Codeunits & Trigger) | ✅ |
+| 5️⃣ | Benutzerführung mit Assisted Setup & Tooltips | ✅ |
+| 6️⃣ | Dateninitialisierung bei Installation | ✅ |
+| 7️⃣ | Erweiterung testen & veröffentlichen (Deployment) | ⏳ |
 
 📁 Alle Übungen dokumentiere ich im Projektordner `src/demo-belohnungssystem/` – inklusive Tabellen, Pages, Extensions und (bald) Codeunits.
+
+🎓 Aktueller XP-Stand: 2570 / 2999 XP → LEVEL 4
 
 ## 🎯 Ziel
 Ich möchte praxisnah lernen, wie man mit AL entwickelt – und langfristig eigene Erweiterungen für Business Central schreiben.
