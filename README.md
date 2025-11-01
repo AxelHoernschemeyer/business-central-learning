@@ -52,8 +52,8 @@ Ich arbeite mich systematisch durch den offiziellen Microsoft Learn-Kurs [„Get
 | 2️⃣ | Neue Objekte hinzufügen (Tabellen & Pages) | ✅ Abgeschlossen |
 | 3️⃣ | Bestehende Objekte erweitern (Extensions) | ✅ Abgeschlossen |
 | 4️⃣ | Funktionalität mit Events erweitern (Codeunits & Trigger) | ✅ Abgeschlossen |
-| 5️⃣ | Benutzerführung mit Assisted Setup & Tooltips | 🔄 In Bearbeitung  |
-| 6️⃣ | Dateninitialisierung bei Installation | ⏳ Geplant |
+| 5️⃣ | Benutzerführung mit Assisted Setup & Tooltips | ✅ Abgeschlossen |
+| 6️⃣ | Dateninitialisierung bei Installation | 🔄⏳ Geplant |
 
 📁 Alle Übungen dokumentiere ich im Projektordner `src/demo-belohnungssystem/` – inklusive Tabellen, Pages, Extensions und (bald) Codeunits.
 
