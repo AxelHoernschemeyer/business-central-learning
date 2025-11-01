@@ -86,6 +86,16 @@ Die Inhalte sind so strukturiert, dass sie leicht erweiterbar sind und sich gut 
 
 ---
 
+## Aufruf des Emoji-Menüs
+
+-**Shortcut:**
+  - **Emoji-Menü:** `Command + Control + Space`
+
+- **Beschreibung:**
+Schneller Zugriff auf das Emoji-Menü am MAC
+
+---
+
 ## 📌 Weitere Shortcuts folgen…
 
 Diese Datei wird kontinuierlich erweitert. Vorschläge, Ergänzungen oder Pull Requests sind willkommen!
