@@ -1,6 +1,6 @@
 # 🧰 AL: Entfernen einer gepackten Extension aus einer Business Central Sandbox — Schritt‑für‑Schritt
 
-Diese Anleitung beschreibt sichere Wege, eine mit `AL: Package` gepackte und per Ctrl+F5 veröffentlichte Extension aus einer Business Central Sandbox zu entfernen. Enthält: **Deinstallation über die UI**, **PowerShell (lokal/OnPrem)**, **Sandbox‑Reset** und **Clean‑Deployment**. Kleine Icons markieren die Abschnitte für bessere Lesbarkeit.
+Diese Anleitung beschreibt sichere Wege, eine mit `AL: Package` (F5) gepackte und per Ctrl+F5 veröffentlichte Extension aus einer Business Central Sandbox zu entfernen. Enthält: **Deinstallation über die UI**, **PowerShell (lokal/OnPrem)**, **Sandbox‑Reset** und **Clean‑Deployment**. Kleine Icons markieren die Abschnitte für bessere Lesbarkeit.
 
 ---
 
