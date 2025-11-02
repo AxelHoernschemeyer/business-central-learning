@@ -9,7 +9,7 @@
       "serverInstance": "BC",
       "authentication": "UserPassword",
       "tenant": "default",
-      "startupObjectId": 22,
+      "startupObjectId": 50110,
       "startupObjectType": "Page"
     }
   ]
