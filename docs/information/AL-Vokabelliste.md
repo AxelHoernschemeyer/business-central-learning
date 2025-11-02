@@ -67,3 +67,13 @@ Eine strukturierte Übersicht aller Objekttypen in AL mit Schlüsselwort, Zweck 
 | `proc` | Erstellt eine `procedure`    |
 
 ---
+
+## 🔢 Neu gelernte Code Snippets in AL Code
+
+| Code   | Funktion/Beschreibung.       |
+|--------|------------------------------|
+| `xor`  | Nur genau ein Ergenis muss tru sein |
+| `DIV`  | Gibt den ganzzahligen Anteil der Division zurück – ohne Nachkommastellen. Beispiel: 5 / 2 = 2,5 → `DIV` liefert nur die 2. |
+| `MOD`  | Gibt den Rest der Division zurück. Beispiel: 5 / 2 = 2,5 → 2 * 2 = 4 → Rest = 1 → `MOD` liefert die 1. |
+
+---
