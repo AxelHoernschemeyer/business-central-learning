@@ -77,3 +77,27 @@ Eine strukturierte Übersicht aller Objekttypen in AL mit Schlüsselwort, Zweck 
 | `MOD`  | Gibt den Rest der Division zurück. Beispiel: 5 / 2 = 2,5 → 2 * 2 = 4 → Rest = 1 → `MOD` liefert die 1. |
 
 ---
+
+Sehr gern, Axel! Hier ist eine übersichtliche **Markdown-Tabelle**, die die Unterschiede zwischen `List`, `Array`, `Dictionary` und dem allgemeinen Begriff `Collection` in AL erklärt – mit Fokus auf den Zugriff per Schlüssel:
+
+
+## 📦 Vergleich von AL-Collections: Zugriffsmöglichkeiten
+
+| Typ         | Zugriff per Index | Zugriff per String-Key | Beschreibung |
+|--------------|-------------------|-------------------------|--------------|
+| `Array`      | ✅ Ja              | ❌ Nein                 | Feste Größe, indexbasiert (`MyArray[1]`). Keine dynamische Erweiterung. |
+| `List`       | ✅ Ja              | ❌ Nein                 | Dynamisch erweiterbare Liste, Zugriff über Position (`MyList.Get(1)`). |
+| `Dictionary` | ❌ Nein            | ✅ Ja                   | Schlüssel-Wert-Sammlung. Zugriff über Schlüssel (`MyDict.Get('Key')`). |
+| `Collection` | 🔄 Abstrakt        | 🔄 Abstrakt             | Oberbegriff für strukturierte Datensammlungen (z. B. List, Dictionary). Kein konkreter Typ. |
+
+> ✅ = unterstützt ❌ = nicht unterstützt 🔄 = hängt vom konkreten Typ ab
+
+---
+
+### 🧠 Merksatz für dein Lernportfolio
+
+> **Nur `Dictionary` erlaubt in AL den direkten Zugriff auf Werte über benannte Schlüssel wie Strings.**  
+> `List` und `Array` sind indexbasiert, `Collection` ist ein Sammelbegriff.
+
+
+---
