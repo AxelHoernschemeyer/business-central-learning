@@ -47,12 +47,16 @@ page 50111 "Expressions Card"
     {
         area(Processing)
         {
-            action(ActionName)
+            action(Execute)
             {
+                Caption = 'Ausführen';
+                Image = ExecuteBatch;
+                ApplicationArea = All;
+                ToolTip = 'Klicken um die Vergleichsoperation auszuführen.';
 
                 trigger OnAction()
                 begin
-
+                    Ergebnis := Wert1 > Wert2;
                 end;
             }
         }
