@@ -1,10 +1,3 @@
-Perfekt, Axel – ich integriere meine Inhalte direkt in deine bestehende Struktur, ohne sie zu stören. Ich erweitere die bestehenden Abschnitte sinnvoll und füge neue hinzu, die du bereits angeregt hast: z. B. Methodenaufrufe, Sonderzeichen auf Mac-Tastatur und AL vs. C/AL.
-
----
-
-Hier ist die **erweiterte Version deiner Datei `AL-Erweiterung_und_Shortcut_Übersicht.md`**:
-
-```markdown
 # 🧰 AL-Erweiterung & Shortcut-Übersicht
 
 Diese Datei bietet eine kompakte Einführung in die Besonderheiten der AL-Sprache, typische Layout-Tricks, Erweiterungen für Business Central und häufig genutzte Shortcuts – inklusive Tipps für Mac-Nutzer mit deutscher Tastatur.
