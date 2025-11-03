@@ -16,6 +16,7 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 - [📈 Fortschritt](#-fortschritt)
 - [📘 AL-Vokabelliste](#-meine-al-vokabelliste)
 - [🔐 DataClassification](#-meine-übersicht-zur-dataclassification)
+- [📘 AL-Anweisungen & Schleifen - Übersicht](#-al-anweisungen--schleifen--kompakter-überblick)
 - [🧰 Setup-Anleitung](#-setup-anleitung-für-docker--vs-code)
 - [📘 VS Code Shortcuts](#-visual-studio-code--shortcuts--erklärungen)
 - [🧰 AL-Erweiterung & Shortcut-Übersicht](#-al-erweiterung--shortcut-übersicht)
@@ -105,6 +106,21 @@ Ich dokumentiere alle verfügbaren Werte für die Eigenschaft `DataClassificatio
 
 ➡️ [Zur AL-DataClassification-Datei](docs/information/AL-DataClassification.md)
 
+## 📘 AL-Anweisungen & Schleifen – kompakter Überblick
+
+Ich habe eine visuell strukturierte Übersicht zu den wichtigsten AL-Anweisungen erstellt – ideal für Einsteiger, Teamweitergabe oder als Nachschlagewerk für die tägliche Entwicklung.
+
+    📌 Inhalt:
+    💬 Kommentare & Blockstruktur (//, /* ... */, begin ... end)
+    🎯 Bedingte Anweisungen (if, case)
+    🔁 Schleifenarten (for, while, repeat until)
+    ⚠️ Best Practices zur Verwendung von while
+    🔧 Vergleich mit Codebeispielen
+
+➡️ [Zur AL-Anweisungs-Übersicht] (docs/guides/AL-Anweisungen_Und_Schleifen_Guide.md)
+
+Diese Datei ergänzt meine Lernreise von C/AL zu AL und hilft mir, typische Muster und Best Practices besser zu verstehen und anzuwenden.
+
 ## 🧰 Setup-Anleitung für Docker & VS Code
 
 Ich dokumentiere jeden Schritt meiner lokalen AL-Entwicklungsumgebung – von der Docker-Installation über die Container-Erstellung bis zum erfolgreichen Symbol-Download in VS Code.  
@@ -123,7 +139,6 @@ Ich dokumentiere nützliche Tastenkombinationen und Funktionen in Visual Studio 
 Ich dokumentiere typische Besonderheiten der AL-Sprache, Layout-Tricks mit field('', ''), nützliche Erweiterungen für Business Central sowie häufig genutzte Shortcuts. Ideal für Einsteiger, Teamweitergabe oder zur Wiederverwendung in eigenen Projekten.
 
 ➡️ [Zur AL-Erweiterung & Shortcut-Übersicht](AL-Erweiterung_und_Shortcut_Übersicht.md "Kompakte Sammlung von AL-Syntax-Besonderheiten, Layout-Tricks und nützlichen Erweiterungen für Business Central.")
-
 
 ## 🧰 Erweiterung entfernen: Sandbox-Anleitung
 
