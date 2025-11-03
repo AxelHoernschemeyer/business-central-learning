@@ -57,11 +57,14 @@ Ich arbeite mich systematisch durch den offiziellen Microsoft Learn-Kurs [„Ers
 | 4️⃣ | Funktionalität mit Events erweitern (Codeunits & Trigger) | ✅ |
 | 5️⃣ | Benutzerführung mit Assisted Setup & Tooltips | ✅ |
 | 6️⃣ | Dateninitialisierung bei Installation | ✅ |
-| 7️⃣ | Erweiterung testen & veröffentlichen (Deployment) | ⏳ |
+| 7️⃣ | Erweiterung testen & veröffentlichen (Deployment) | ✅ |
+| 8️⃣ | Einführung in die Grundlagen der AL-Programmierung in Dynamics 365 Business Central | ✅ |
+| 9️⃣ | Grundlagen der AL-Anweisungen in Dynamics 365 Business Central | ✅ |
+| 🔟 | Comming soon... |⏳|
 
 📁 Alle Übungen dokumentiere ich im Projektordner `src/demo-belohnungssystem/` – inklusive Tabellen, Pages, Extensions und (bald) Codeunits.
 
-🎓 Aktueller XP-Stand: 2570 / 2999 XP → LEVEL 4
+🎓 Aktueller XP-Stand: 50 / 7690 XP → LEVEL 5
 
 ## 🎯 Ziel
 Ich möchte praxisnah lernen, wie man mit AL entwickelt – und langfristig eigene Erweiterungen für Business Central schreiben.
