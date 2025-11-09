@@ -51,16 +51,17 @@ Ich arbeite mich systematisch durch den offiziellen Microsoft Learn-Kurs [„Ers
 
 | Modul | Thema | Status |
 |-------|-------|--------|
-| 1️⃣ | Entwicklungsumgebung einrichten & erste Extension erstellen | ✅ |
-| 2️⃣ | Neue Objekte hinzufügen (Tabellen & Pages) | ✅ |
-| 3️⃣ | Bestehende Objekte erweitern (Extensions) | ✅ |
-| 4️⃣ | Funktionalität mit Events erweitern (Codeunits & Trigger) | ✅ |
-| 5️⃣ | Benutzerführung mit Assisted Setup & Tooltips | ✅ |
-| 6️⃣ | Dateninitialisierung bei Installation | ✅ |
-| 7️⃣ | Erweiterung testen & veröffentlichen (Deployment) | ✅ |
-| 8️⃣ | Einführung in die Grundlagen der AL-Programmierung in Dynamics 365 Business Central | ✅ |
-| 9️⃣ | Grundlagen der AL-Anweisungen in Dynamics 365 Business Central | ✅ |
-| 🔟 | Comming soon... |⏳|
+| 1️ | Entwicklungsumgebung einrichten & erste Extension erstellen | ✅ |
+| 2️ | Neue Objekte hinzufügen (Tabellen & Pages) | ✅ |
+| 3️ | Bestehende Objekte erweitern (Extensions) | ✅ |
+| 4️ | Funktionalität mit Events erweitern (Codeunits & Trigger) | ✅ |
+| 5️ | Benutzerführung mit Assisted Setup & Tooltips | ✅ |
+| 6️ | Dateninitialisierung bei Installation | ✅ |
+| 7️ | Erweiterung testen & veröffentlichen (Deployment) | ✅ |
+| 8️ | Einführung in die Grundlagen der AL-Programmierung in Dynamics 365 Business Central | ✅ |
+| 9️ | Grundlagen der AL-Anweisungen in Dynamics 365 Business Central | ✅ |
+| 10 | Mit integrierten AL-Funktionen in Dynamics 365 Business Central arbeiten |⏳|
+| 11 | Comming soon...
 
 📁 Alle Übungen dokumentiere ich im Projektordner `src/demo-belohnungssystem/` – inklusive Tabellen, Pages, Extensions und (bald) Codeunits.
 
