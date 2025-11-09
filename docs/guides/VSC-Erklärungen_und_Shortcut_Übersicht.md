@@ -88,11 +88,22 @@ Die Inhalte sind so strukturiert, dass sie leicht erweiterbar sind und sich gut 
 
 ## Aufruf des Emoji-Menüs
 
--**Shortcut:**
+- **Shortcut:**
   - **Emoji-Menü:** `Command + Control + Space`
 
 - **Beschreibung:**
 Schneller Zugriff auf das Emoji-Menü am MAC
+
+---
+
+## Explorer-Bereich aus- und einbleden
+
+- **Shortcut:**
+| - ** MAC OS:** `Commmand + B`
+| - ** Windows:** `Strg + B`
+
+- **Beschreibung:**
+Blendet den Explorerbereicht ein oder aus.
 
 ---
 
