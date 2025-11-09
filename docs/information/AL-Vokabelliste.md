@@ -19,6 +19,7 @@ Eine Sammlung zentraler Begriffe aus der AL-Entwicklung für Microsoft Dynamics 
 | `Error()`        | Bricht mit Fehlermeldung ab                                               |
 | `StrLen()`       | Gibt die Länge eines Textes zurück                                        |
 | `Trim()`         | Entfernt Leerzeichen am Anfang und Ende eines Textes                      |
+| `StrMenu()`      | Zeigt ein Auswahlmenü und gibt die Nummer der gewählten Option zurück     |
 
 ---
 
@@ -99,5 +100,33 @@ Sehr gern, Axel! Hier ist eine übersichtliche **Markdown-Tabelle**, die die Unt
 > **Nur `Dictionary` erlaubt in AL den direkten Zugriff auf Werte über benannte Schlüssel wie Strings.**  
 > `List` und `Array` sind indexbasiert, `Collection` ist ein Sammelbegriff.
 
-
 ---
+
+### 📘 Funktionen mit Benutzerinteraktion
+
+Perfekt, Axel! Hier ist der passende Markdown-Block für deine neue Sektion **„📘 Funktionen mit Benutzerinteraktion“** – stilistisch abgestimmt auf deine `AL-Vokabelliste.md`:
+
+#### 🧭 `StrMenu()`
+
+Zeigt ein einfaches Auswahlmenü mit mehreren Optionen und gibt die Nummer der gewählten Option zurück.
+
+**🧩 Syntax:**
+```al
+Selection := StrMenu(TextOptions, DefaultOption, PromptText);
+```
+
+- `TextOptions`: Kommaseparierte Liste der Optionen (z. B. `'Yes,No,Maybe'`)
+- `DefaultOption`: Nummer der vorausgewählten Option (z. B. `1`)
+- `PromptText`: Frage oder Hinweistext im Dialog (z. B. `'Please choose:'`)
+
+**🧪 Beispiel:**
+```al
+Days := 'Monday,Tuesday,Wednesday,Thursday,Friday';
+Selection := StrMenu(Days, 1, 'Which day is today ?');
+Message('You selected %1.', Selection);
+```
+
+💡 Gibt z. B. `3` zurück, wenn „Wednesday“ gewählt wurde.  
+Wenn du den gewählten Text anzeigen möchtest, verwende zusätzlich `SelectStr(Selection, Days)`.
+
+```
