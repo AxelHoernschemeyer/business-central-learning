@@ -23,89 +23,98 @@ Eine Sammlung zentraler Begriffe aus der AL-Entwicklung für Microsoft Dynamics 
 
 ## 🔤 Zeichenfolgefunktionen
 
-| Begriff           | Syntax                                | Bedeutung                         |
-|-----------------------------------------------------------------------------------------------|
-| StrPos            | Position := StrPos(Text, Substring);                  | Liefert die Pos. des Substring in Text                                   |
-| IndexOf           | Position := Text.IndexOf(Substring,[StartPosition]);  | Liefert die Pos. des Substring in Text. Mgl. zur Angabe der Startpos.    |
-| CopyStr           | NewString := CopyStr(Text, StartIndex, [Length]);     |
-| Substring         | newString := MyLongString.Substring(5, 10);           | Achtung: Wenn einer der Parameter nicht zum String passt, gibt es einen Fehler    |
-| SelectStr         | newString := SelectStr(2, MyLongString);              | Gibt den Wert nach dem ersten Komma zurück. Bei (1, MyLong...) vor erstem Komma   |
-| Split             | newString := MyLongString.Split(',').Get(2);          | Wie oben nur nicht auf Komma beschränkt und erweiterbar                           |
-| InsStr            | newString := InsStr(MyLongString, 'or ESC ', 13);     | Fügt eine Zeichenfolge an einer bestimmten Position in eine vorhandene Zeichenfolge ein |
-| StrLen            | Integer := StrLen(MyLongString)                       | Ermittelt die Länge des Feldinhalts   |
-| MaxStrLen         | Integer := MaxStrLen(MyLongString)                    | Ermittelt die maximale Länge des Feldes oder der Variable |
-| LowerCase         | String := LowerCase(MyLongString)
-| Uppercase         | String := UpperCase(MyLongString)
-| ToLower           | MyLongString.ToLower()
-| ToUpper           | MyLongString.ToUpper()
-| IncStr            | String := IncStr('Test 99') oder IncStr('Test -99')   | Erhöht eine Zahl in einer Zeichenfolge. Ist Zahl negativ, wird um eins verringert. (100 o. -100)|
-| Contains          |   | Überprüft, ob eine Zeichenfolge ein Zeichen oder eine Teilzeichenfolge enthält.|
-| EndsWith          |   | Überprüft, ob eine Zeichenfolge mit einem bestimmten Wert endet.
-| IndexOfAny        |   | Ruft den ersten Index eines der Zeichen ab. Gibt Null zurück, wenn keine gefunden wird.
-| LastIndexOf       |   | Ruft den letzten Index eines Zeichens oder einer Zeichenfolge ab. Gibt Null zurück, wenn keine gefunden wird
-| PadLeft           |   | Richtet die Zeichen in der Instanz nach rechts aus, indem Sie sie für eine bestimmte Gesamtlänge links auffüllen. Sie können angeben, welches Zeichen zum Auffüllen verwendet wird.
-| PadRight          |   | Richtet die Zeichen in der Instanz nach links aus, indem Sie sie für eine bestimmte Gesamtlänge rechts auffüllen. Sie können angeben, welches Zeichen zum Auffüllen verwendet wird
-| Remove            |   | Entfernt eine Teilzeichenfolge aus einem Text
-| Replace           |   | Ersetzt eine Teilzeichenfolge aus einem Text.
-| StartsWith        |   | Überprüft, ob eine Zeichenfolge mit einem bestimmten Wert beginnt.
-| TrimEnd           |   | Entfernt alle nachfolgenden Vorkommen eines Zeichensatzes.
-| TrimStart         |   | Entfernt alle vorstehenden Vorkommen eines Zeichensatzes.
+| Funktion       | Syntax                                           | Beschreibung                                                                 |
+|----------------|--------------------------------------------------|------------------------------------------------------------------------------|
+| `StrPos`       | `Position := StrPos(Text, Substring);`           | Position des Substrings in Text                                              |
+| `IndexOf`      | `Text.IndexOf(Substring[, StartPosition]);`      | Position des Substrings, optional mit Startposition                          |
+| `CopyStr`      | `CopyStr(Text, StartIndex, [Length]);`           | Kopiert Teilstring                                                           |
+| `Substring`    | `Text.Substring(5, 10);`                         | Gibt Teilstring zurück, Fehler bei ungültigen Parametern                     |
+| `SelectStr`    | `SelectStr(2, Text);`                            | Gibt Wert nach erstem Komma zurück                                           |
+| `Split`        | `Text.Split(',').Get(2);`                        | Zerlegt Zeichenfolge, Zugriff auf Teilstück                                  |
+| `InsStr`       | `InsStr(Text, 'or ESC ', 13);`                   | Fügt Zeichenfolge an bestimmter Position ein                                 |
+| `StrLen`       | `StrLen(Text)`                                   | Länge der Zeichenfolge                                                       |
+| `MaxStrLen`    | `MaxStrLen(Text)`                                | Maximale Länge der Variable                                                  |
+| `LowerCase`    | `LowerCase(Text)`                                | Wandelt in Kleinbuchstaben um                                                |
+| `UpperCase`    | `UpperCase(Text)`                                | Wandelt in Großbuchstaben um                                                 |
+| `ToLower`      | `Text.ToLower()`                                 | Alternative zu `LowerCase`                                                   |
+| `ToUpper`      | `Text.ToUpper()`                                 | Alternative zu `UpperCase`                                                   |
+| `IncStr`       | `IncStr('Test 99')`                              | Erhöht Zahl in Zeichenfolge                                                  |
+| `Contains`     | `Text.Contains('abc')`                           | Prüft, ob Teilzeichenfolge enthalten ist                                     |
+| `EndsWith`     | `Text.EndsWith('xyz')`                           | Prüft, ob Zeichenfolge mit Wert endet                                        |
+| `IndexOfAny`   | `Text.IndexOfAny(['a','b'])`                     | Erster Index eines Zeichens aus Liste                                        |
+| `LastIndexOf`  | `Text.LastIndexOf('x')`                          | Letzter Index eines Zeichens                                                 |
+| `PadLeft`      | `Text.PadLeft(10, '*')`                          | Links auffüllen bis Länge erreicht                                           |
+| `PadRight`     | `Text.PadRight(10, '-')`                         | Rechts auffüllen bis Länge erreicht                                          |
+| `Remove`       | `Text.Remove(2, 3)`                              | Entfernt Teilzeichenfolge                                                    |
+| `Replace`      | `Text.Replace('old','new')`                      | Ersetzt Teilzeichenfolge                                                     |
+| `StartsWith`   | `Text.StartsWith('abc')`                         | Prüft, ob Zeichenfolge mit Wert beginnt                                     |
+| `TrimEnd`      | `Text.TrimEnd()`                                 | Entfernt nachfolgende Leerzeichen                                            |
+| `TrimStart`    | `Text.TrimStart()`                               | Entfernt vorstehende Leerzeichen                                             |
 
-## Datumsausdrücke
+## 📅 Datumsausdrücke
+| Funktion      | Syntax                                  | Beschreibung                                                   |
+|---------------|------------------------------------------|----------------------------------------------------------------|
+| `Date2DMY`     | `Date2DMY(Date, What)`                  | What: 1 = Tag, 2 = Monat, 3 = Jahr                             |
+| `Date2DWY`     | `Date2DWY(Date, What)`                  | What: 1 = Wochentag, 2 = Woche (KW), 3 = Jahr                  |
+| `CalcDate`     | `CalcDate(DateExpression [, Date])`     | z. B. `'1W'`, `'-1Q'` → Addiert 1 Woche bzw. subtrahiert 1 Quartal |
 
-| Date2DMY          | Number := Date2DMY(Date, What);   | What: 1 = Tag, 2 = Monat, 3 = Jahr
-| Date2DWY          | Number := Date2DWY(Date, What);   | What: 1 = Wochentag, 2 = Woche (KW), 3 = Jahr
-| Calcdate          | NewDate := CalcDate(DateExpression [, Date]);     | DateExpression = D, W, M, Q, Y <-> '1W', '-1Q' Addiert 1 Woche bzw. suptrahiert 1 Quartal
 
-## Nummernausdrücke
+## 🔢 Nummernausdrücke
 
-| Round             | NewNumber := Round(Number [, Precision] [, Direction]);   | '>' – Rundet auf, '<' – Rundet ab, '=' Rundet auf nächsten Wert -- Round(1234.56789, 0.001, '>') = .568
-| ABS               | NewNumber := Abs(Number);                                 | Abs berechnet den absoluten Wert einer Zahl - Abs(-20) = 20
-| Power             | NewNumber :=  System.Power(Number: Decimal, Power: Decimal)   | Erhöht eine Zahl auf eine Potenz
-| Random            | Number := Random(MaxNumber);  | Ermittelt eine Zufallszahl
-| Randomize         | Number := Random(MaxNumber);  | Ermittelt eine Zufallszahl
+| Funktion   | Syntax                                               | Beschreibung                                                  |
+|------------|------------------------------------------------------|---------------------------------------------------------------|
+| `Round`    | `Round(Number [, Precision] [, Direction])`          | `>` = aufrunden, `<` = abrunden, `=` = nächster Wert          |
+| `Abs`      | `Abs(Number)`                                        | Absoluter Wert einer Zahl                                     |
+| `Power`    | `System.Power(Number: Decimal, Power: Decimal)`      | Potenzierung                                                  |
+| `Random`   | `Random(MaxNumber)`                                  | Zufallszahl bis MaxNumber                                     |
+| `Randomize`| `Random(MaxNumber)`                                  | (Alias von `Random`)                                          |
 
-## Array-Datentype
+## 🧮 Array-Datentype
 
-| ArrayLen      | Length := ArrayLen(Array [,Dimension]);   | gibt die Anzahl der aktuellen Elemente in einem Array zurück. .[1],.[2],.[3],.[1] = 3|
-| CompressArray | Count := CompressArray(StringArray);      | verschiebt nicht leeren Zeichenfolgen eines Arrays an den Anfang des Arrays. Leer sind dann am Ende |
-| CopyArray     | CopyArray(NewArray, Array, Position [, Length]);  | erstellt ein neues Array basierend auf einem vorhandenen. |
+| Funktion        | Syntax                                               | Beschreibung                                                  |
+|-----------------|------------------------------------------------------|---------------------------------------------------------------|
+| `ArrayLen`       | `ArrayLen(Array [,Dimension])`                      | Anzahl der Elemente                                           |
+| `CompressArray`  | `CompressArray(StringArray)`                        | Nicht-leere Einträge nach vorne verschieben                   |
+| `CopyArray`      | `CopyArray(NewArray, Array, Position [, Length])`   | Kopiert Array-Inhalte                                         |
 
-## List Funktionen
-
-... comming soon
-| Add(X)
-| Contains(X)
-| Get(index)
-| Set(index, X)
-| Insert(index, X)
-| Remove(X)
-| RemoveAt(index)
-| Count(index)
-| AddRange(X, [X], [X], ...)
-| GetRange(index, count, List of [X])
-| RemoveRange(index, count)
-| IndexOf(X)
-| LastIndexOf(X)
-| Reverse
-
-## System Funktionen
+## 📋 List Funktionen
 
 ... comming soon
+- `Add(X)`
+- `Contains(X)`
+- `Get(index)`
+- `Set(index, X)`
+- `Insert(index, X)`
+- `Remove(X)`
+- `RemoveAt(index)`
+- `Count()`
+- `AddRange(X, [X], [X], ...)`
+- `GetRange(index, count)`
+- `RemoveRange(index, count)`
+- `IndexOf(X)`
+- `LastIndexOf(X)`
+- `Reverse()`
 
-| UserID
-| CompanyName
-| Today
-| Time
-| WorkDate
 
-## Variable Funktionen
+## 🖥️ System Funktionen
 
 ... comming soon
-| Clear
-| ClearAll
-| Evaluate      | | Variable des Textdatentyps (Code oder Text) in einen anderen Datentyp konvertieren (der kein Text ist).
-| Format        | | Format konvertiert einen Datentyp in einen Textdatentyp.
+
+- `UserID`
+- `CompanyName`
+- `Today`
+- `Time`
+- `WorkDate`
+
+
+## 🧼 Variable Funktionen
+
+... comming soon
+- `Clear`
+- `ClearAll`
+- `Evaluate` – Konvertiert Text in anderen Datentyp der kein Text ist
+- `Format` – Konvertiert Datentyp in Text
+
 
 ---
 
