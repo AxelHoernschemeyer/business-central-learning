@@ -95,6 +95,34 @@ Eine Sammlung zentraler Begriffe aus der AL-Entwicklung für Microsoft Dynamics 
 - `LastIndexOf(X)`
 - `Reverse()`
 
+## Fehler Sammeln - Error Handling
+
+... comming soon
+- `ErrorInfo.Create(String [, Boolean] [, var Record] [, Integer] [, Integer] [, String] [, Verbosity] [, DataClassification] [, Dictionary of [Text, Text]]) – Erstellt ein neues Objekt ErrorInfo.`
+
+- `ErrorInfo.Callstack() – Gibt eine Aufrufliste an, in dem das Objekt ErrorInfo gesammelt wurde.`
+
+- `ErrorInfo.Collectible([Boolean]) – Legt fest, ob der Fehler sammelbar ist unter Verwendung von ErrorBehavior.Collect.`
+
+- `ErrorInfo.CustomDimensions([Dictionary of [Text, Text]]) – Ein Satz von Dimensionen, angegeben als Wörterbuch, das sich auf den Fehler bezieht.'
+
+- `ErrorInfo.FieldNo([Integer]) – Gibt die Feld-ID an, auf die sich der Fehler bezieht.`
+
+- `ErrorInfo.PageNo([Integer]) – Gibt die Seitennummer an, auf die sich der Fehler bezieht.`
+
+- `ErrorInfo.RecordId([RecordId]) – Gibt die Datensatz-ID an, auf die sich der Fehler bezieht.`
+
+- `ErrorInfo.SystemId([Guid]) – Gibt die System-ID an, auf die sich der Fehler bezieht.`
+
+- `ErrorInfo.TableId([Integer]) – Gibt die Tabellen-ID an, auf die sich der Fehler bezieht.`
+
+- `ErrorInfo.AddAction(Text, Integer, Text) – Gibt für den Fehler eine Aktion an.`
+
+- `System.HasCollectedErrors() – Ruft einen Wert ab, der angibt, ob im aktuellen Fehlersammlungsbereich Fehler erfasst wurden.`
+
+- `System.GetCollectedErrors([Boolean]) – Ruft alle gesammelten Fehler im aktuellen Erfassungsbereich auf.`
+
+- `System.ClearCollectedErrors() – Löscht alle gesammelten Fehler im aktuellen Erfassungsbereich.`
 
 ## 🖥️ System Funktionen
 
