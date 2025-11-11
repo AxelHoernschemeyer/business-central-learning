@@ -66,7 +66,7 @@ Ich arbeite mich systematisch durch den offiziellen Microsoft Learn-Kurs [„Ers
 
 📁 Alle Übungen dokumentiere ich im Projektordner `src/demo-belohnungssystem/` – inklusive Tabellen, Pages, Extensions und (bald) Codeunits.
 
-🎓 Aktueller XP-Stand: 1350 / 7699 XP → LEVEL 5
+🎓 Aktueller XP-Stand: 3150 / 7699 XP → LEVEL 5
 
 ## 🎯 Ziel
 Ich möchte praxisnah lernen, wie man mit AL entwickelt – und langfristig eigene Erweiterungen für Business Central schreiben.
