@@ -62,7 +62,8 @@ Ich arbeite mich systematisch durch den offiziellen Microsoft Learn-Kurs [„Ers
 | 9️ | Grundlagen der AL-Anweisungen in Dynamics 365 Business Central | ✅ |
 | 10 | Mit integrierten AL-Funktionen in Dynamics 365 Business Central arbeiten | ✅ |
 | 11 | Fehler mithilfe der Anwendersprache in Dynamics 365 Business Central behandeln | ✅ |
-| 12 | Comming soon...  | ⏳ |
+| 12 | Benutzerdefinierte Prozeduren in Dynamics 365 Business Central erstellen | ✅ |
+| 13 | Comming soon... Mit Codeunits in Dynamics 365 Business Central arbeiten | ⏳ |
 
 📁 Alle Übungen dokumentiere ich im Projektordner `src/demo-belohnungssystem/` – inklusive Tabellen, Pages, Extensions und (bald) Codeunits.
 
