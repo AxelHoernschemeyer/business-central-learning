@@ -185,10 +185,10 @@ Eine strukturierte Übersicht aller Objekttypen in AL mit Schlüsselwort, Zweck 
 
 | Kürzel | Funktion                     |
 |--------|------------------------------|
-| `tabe` | Erstellt ein `tableextension`-Gerüst |
-| `pagee`| Erstellt ein `pageextension`-Gerüst |
-| `trig` | Fügt einen Trigger ein       |
-| `proc` | Erstellt eine `procedure`    |
+| `ttabe` | Erstellt ein `tableextension`-Gerüst |
+| `tpage`| Erstellt ein `pageextension`-Gerüst |
+| `ttrig` | Fügt einen Trigger ein       |
+| `tproc` | Erstellt eine `procedure`    |
 
 ---
 
