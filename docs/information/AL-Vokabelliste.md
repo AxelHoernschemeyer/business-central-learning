@@ -202,9 +202,6 @@ Eine strukturierte Übersicht aller Objekttypen in AL mit Schlüsselwort, Zweck 
 
 ---
 
-Sehr gern, Axel! Hier ist eine übersichtliche **Markdown-Tabelle**, die die Unterschiede zwischen `List`, `Array`, `Dictionary` und dem allgemeinen Begriff `Collection` in AL erklärt – mit Fokus auf den Zugriff per Schlüssel:
-
-
 ## 📦 Vergleich von AL-Collections: Zugriffsmöglichkeiten
 
 | Typ         | Zugriff per Index | Zugriff per String-Key | Beschreibung |
