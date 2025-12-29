@@ -64,11 +64,12 @@ Ich arbeite mich systematisch durch den offiziellen Microsoft Learn-Kurs [„Ers
 | 11 | Fehler mithilfe der Anwendersprache in Dynamics 365 Business Central behandeln | ✅ |
 | 12 | Benutzerdefinierte Prozeduren in Dynamics 365 Business Central erstellen | ✅ |
 | 13 | Mit Codeunits in Dynamics 365 Business Central arbeiten | ✅ |
-| 14 | Comming soon... Ereignisse und Trigger in Dynamics 365 Business Central verwenden  | ⏳ |
+| 14 | Ereignisse und Trigger in Dynamics 365 Business Central verwenden | ✅ |
+| 15 | Comming soon... Schnittstellen in Dynamics 365 Business Central implementieren  | ⏳ |
 
 📁 Alle Übungen dokumentiere ich im Projektordner `src/demo-belohnungssystem/` – inklusive Tabellen, Pages, Extensions und (bald) Codeunits.
 
-🎓 Aktueller XP-Stand: 3150 / 7699 XP → LEVEL 5
+🎓 Aktueller XP-Stand: 6450 / 7699 XP → LEVEL 5
 
 ## 🎯 Ziel
 Ich möchte praxisnah lernen, wie man mit AL entwickelt – und langfristig eigene Erweiterungen für Business Central schreiben.
