@@ -1,12 +1,40 @@
 {
-  "id": "e3a1f9d0-1234-4567-89ab-abcdef123456",
-  "name": "BusinessCentralLearning",
+  "id": "ab8c39eb-4209-4a86-a974-111ec28778c4",
+  "name": "business-central-learning",
   "publisher": "Axel Hörnschemeyer",
   "version": "1.0.0.0",
-  "platform": "23.0.0.0",
-  "application": "23.0.0.0",
-  "dependencies": [],
-  "target": "Cloud",
-  "runtime": "9.0",
+  "brief": "",
+  "description": "Meine Lernumgebung für Microsoft Dynamics 365 Business Central",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    { 
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972", 
+      "name": "Base Application", 
+      "publisher": "Microsoft", 
+      "version": "23.0.0.0" 
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "27.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "16.0",
+  "features": [
+    "NoImplicitWith"
+  ],
   "contextSensitiveHelpUrl": "https://learn.microsoft.com/en-us/dynamics365/business-central/"
 }
