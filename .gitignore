@@ -3,6 +3,7 @@
 ########################################
 
 # Kompilierte Extensions
+.alpackages/
 *.app
 
 # Temporäre Cache-Dateien (z. B. aus VS Code oder AL Language Extension)
