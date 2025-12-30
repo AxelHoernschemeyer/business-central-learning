@@ -1,16 +1,15 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "type": "al",
-      "request": "launch",
-      "name": "business-central-learning",
-      "server": "http://bcdev",
-      "serverInstance": "BC",
-      "authentication": "UserPassword",
-      "tenant": "default",
-      "startupObjectId": 50110,
-      "startupObjectType": "Page"
-    }
-  ]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "bcdev",
+            "type": "al",
+            "request": "launch",
+            "server": "http://bcdev",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "tenant": "default",
+            "startupObjectId": 22
+        }
+    ]
 }
