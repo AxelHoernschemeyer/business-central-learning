@@ -23,6 +23,7 @@ Hier findest du strukturierte Guides, Referenzdateien und praxisnahe Beispiele r
 |---------|-----------|
 | [📘 AL-Vokabelliste](information/AL-Vokabelliste.md) | Zentrale Begriffe aus der AL-Entwicklung – kompakt erklärt und praxisnah. |
 | [🔐 DataClassification-Übersicht](information/AL-DataClassification.md) | Alle verfügbaren Werte für `DataClassification` mit Beschreibung und Beispielen. |
+| [📚 AL-DateFormulas_und_CalcDate](information/AL-DateFormulas_und_CalcDate.md) | Eine Übersicht der DateFormulas mit Syntax und Beispielen |
 
 ---
 
