@@ -20,6 +20,7 @@ Willkommen auf meinem GitHub-Profil! Ich bin gerade dabei, mich in die Welt von 
 - [🧰 Setup-Anleitung](#-setup-anleitung-für-docker--vs-code)
 - [📘 VS Code Shortcuts](#-visual-studio-code--shortcuts--erklärungen)
 - [🧰 AL-Erweiterung & Shortcut-Übersicht](#-al-erweiterung--shortcut-übersicht)
+- [📚 AL-DateFormulas_und_CalcDate.md](#-al-dateformulas--calcdate-formeln-syntax-und-beispiele)
 - [🧰 Erweiterung entfernen](#-erweiterung-entfernen-sandbox-anleitung)
 - [🧪 Beispiele](#-beispiel-hello-world-extension)
 
@@ -148,6 +149,12 @@ Ich dokumentiere nützliche Tastenkombinationen und Funktionen in Visual Studio 
 Ich dokumentiere typische Besonderheiten der AL-Sprache, Layout-Tricks mit field('', ''), nützliche Erweiterungen für Business Central sowie häufig genutzte Shortcuts. Ideal für Einsteiger, Teamweitergabe oder zur Wiederverwendung in eigenen Projekten.
 
 ➡️ [Zur AL-Erweiterung & Shortcut-Übersicht](AL-Erweiterung_und_Shortcut_Übersicht.md "Kompakte Sammlung von AL-Syntax-Besonderheiten, Layout-Tricks und nützlichen Erweiterungen für Business Central.")
+
+## 📚 AL-DateFormulas & CalcDate Formeln, Syntax und Beispiele
+
+Enthält eine Sammlung von allen relevanten CalcDate Formeln, Syntax und einige Beispiele.
+
+➡️ [Zur Sammlung von CalcDate Formeln](docs/information/AL-DateFormulas_und_CalcDate.md "Sammlung von CalcDate Syntax, Beispielen und Formeln für Business Central.")
 
 ## 🧰 Erweiterung entfernen: Sandbox-Anleitung
 
