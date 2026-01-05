@@ -33,8 +33,10 @@
     "includeSourceInSymbolFile": true
   },
   "runtime": "13.0",
-  "features": [
-    "NoImplicitWith"
-  ],
+  "features": [ 
+    "NoImplicitWith", 
+    "TranslationFile",
+    "GenerateCaptions" 
+    ],
   "contextSensitiveHelpUrl": "https://learn.microsoft.com/en-us/dynamics365/business-central/"
 }
