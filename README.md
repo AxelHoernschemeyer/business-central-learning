@@ -70,7 +70,7 @@ Ich arbeite mich systematisch durch den offiziellen Microsoft Learn-Kurs [„Ers
 | 16 | Daten mit Code in Dynamics 365 Business Central ändern | ✅ |
 | 17 | Mehrsprachige Entwicklung in Dynamics 365 Business Central verwalten | ✅ |
 | 18 | Komplettes Modul Anwendungsgrundlagen mit der AL Programmiersprache für Microsoft Dynamics 365 Business Central. | ✅ |
-| 19 | Comming soon...  | ⏳ |
+| 19 | Comming soon... Einführung in die Entwicklungsumgebung für Dynamics 365 Business Central | ⏳ |
 
 📁 Alle Übungen dokumentiere ich im Projektordner `src/demo-belohnungssystem/` – inklusive Tabellen, Pages, Extensions und (bald) Codeunits.
 
