@@ -3,12 +3,17 @@
     "configurations": [
         {
             "name": "bcdev",
+            //"name": "Sandbox Lindenberg",
             "type": "al",
             "request": "launch",
             "server": "http://bcdev",
+            //"server": "https://businesscentral.dynamics.com",
             "serverInstance": "BC",
+            //"serverInstance": "sandbox",
             "authentication": "UserPassword",
+            //"authentication": "AAD",
             "tenant": "default",
+            //"tenant": "5dfc5082-fbd2-475b-99c1-1342063b10cb",
             "startupObjectId": 22
         }
     ]
