@@ -72,7 +72,8 @@ Ich arbeite mich systematisch durch den offiziellen Microsoft Learn-Kurs [„Ers
 | 18 | Komplettes Modul Anwendungsgrundlagen mit der AL Programmiersprache für Microsoft Dynamics 365 Business Central. | ✅ |
 | 19 | Einführung in die Entwicklungsumgebung für Dynamics 365 Business Central | ✅ |
 | 20 | Mit Tabellen in Dynamics 365 Business Central arbeiten | ✅ |
-| 20 | Comming soon... Eine vorhandene Tabelle in Dynamics 365 Business Central erweitern und ändern | ⏳ |
+| 21 | Eine vorhandene Tabelle in Dynamics 365 Business Central erweitern und ändern | ✅ | 
+| 22 | Comming soon... Mit Seiten in Dynamics 365 Business Central arbeiten | ⏳ |
 
 📁 Alle Übungen dokumentiere ich im Projektordner `src/demo-belohnungssystem/` – inklusive Tabellen, Pages, Extensions und (bald) Codeunits.
 
