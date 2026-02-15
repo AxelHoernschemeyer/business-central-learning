@@ -75,7 +75,7 @@ Ich arbeite mich systematisch durch den offiziellen Microsoft Learn-Kurs [„Ers
 | 21 | Eine vorhandene Tabelle in Dynamics 365 Business Central erweitern und ändern | ✅ | 
 | 22 | Comming soon... Mit Seiten in Dynamics 365 Business Central arbeiten | ⏳ |
 
-📁 Alle Übungen dokumentiere ich im Projektordner `src/demo-belohnungssystem/` – inklusive Tabellen, Pages, Extensions und (bald) Codeunits.
+📁 Alle Übungen dokumentiere ich im Projektordner `src/` – inklusive Tabellen, Pages, Extensions und (bald) Codeunits.
 
 🎓 Aktueller XP-Stand: 8200 / 11299 XP → LEVEL 6
 
